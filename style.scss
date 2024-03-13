@@ -8,5 +8,38 @@ $background-color_2: hsl(275, 100%, 97%);
 $background-color_3: hsl(292, 16%, 49%);
 $background-color_4: hsl(292, 42%, 14%);
 
-$font-family_1: "Outfit", sans-serif;
-$font-family_2: "Young Serif", serif;
+$font-family_1: "Work Sans", sans-serif;
+.minus,
+.answer {
+  display: none;
+}
+.hide {
+  display: none;
+}
+.active {
+  display: block;
+}
+
+body {
+  background-image: url(assets/images/background-pattern-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: $background-color_2;
+  font-family: $font-family_1;
+  font-size: 16px;
+  font-weight: 400;
+  #theBox {
+    background-color: $background-color_1;
+    width: 500px;
+    margin: 100px auto;
+    padding: 36px;
+    #title {
+      display: flex;
+    }
+    .facts {
+      .slot {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}
