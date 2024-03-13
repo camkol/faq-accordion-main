@@ -21,14 +21,32 @@ body {
 }
 body #theBox {
   background-color: white;
-  width: 500px;
+  width: 460px;
   margin: 100px auto;
   padding: 36px;
+  border-radius: 16px;
+  box-shadow: 0px 6px 25px 3px rgba(47, 21, 51, 0.26);
 }
 body #theBox #title {
   display: flex;
+  margin-bottom: 8px;
+}
+body #theBox #title h1 {
+  font-weight: 700;
+  font-size: 48px;
+  margin: 0;
+}
+body #theBox #title img {
+  margin-right: 16px;
 }
 body #theBox .facts .slot {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+body #theBox .facts .slot .question {
+  font-weight: 600;
+}
+body #theBox .facts .answer {
+  color: hsl(292, 16%, 49%);
 }/*# sourceMappingURL=style.css.map */
