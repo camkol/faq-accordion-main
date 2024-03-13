@@ -2,11 +2,13 @@ $color_1: white;
 $color_2: hsl(275, 100%, 97%);
 $color_3: hsl(292, 16%, 49%);
 $color_4: hsl(292, 42%, 14%);
+$color_5: hsl(281, 83%, 54%);
 
 $background-color_1: white;
 $background-color_2: hsl(275, 100%, 97%);
 $background-color_3: hsl(292, 16%, 49%);
 $background-color_4: hsl(292, 42%, 14%);
+$background-color_5: hsl(281, 83%, 54%);
 
 $font-family_1: "Work Sans", sans-serif;
 .minus,
@@ -19,7 +21,6 @@ $font-family_1: "Work Sans", sans-serif;
 .active {
   display: block;
 }
-
 body {
   background-image: url(assets/images/background-pattern-desktop.svg);
   background-repeat: no-repeat;
@@ -53,11 +54,25 @@ body {
         align-items: center;
         .question {
           font-weight: 600;
+          :hover {
+            color: $color_5;
+          }
         }
       }
       .answer {
         color: $color_3;
       }
+    }
+  }
+}
+@media only screen and (max-width: 500px) {
+  body {
+    background-image: url(assets/images/background-pattern-mobile.svg);
+
+    #theBox {
+      margin: 130px 16px;
+      padding: 16px;
+      width: auto;
     }
   }
 }

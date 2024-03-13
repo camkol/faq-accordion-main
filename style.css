@@ -47,6 +47,20 @@ body #theBox .facts .slot {
 body #theBox .facts .slot .question {
   font-weight: 600;
 }
+body #theBox .facts .slot .question :hover {
+  color: hsl(281, 83%, 54%);
+}
 body #theBox .facts .answer {
   color: hsl(292, 16%, 49%);
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    background-image: url(assets/images/background-pattern-mobile.svg);
+  }
+  body #theBox {
+    margin: 130px 16px;
+    padding: 16px;
+    width: auto;
+  }
 }/*# sourceMappingURL=style.css.map */

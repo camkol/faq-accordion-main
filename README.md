@@ -15,3 +15,4 @@
 - input font
 - installed jquery function for class changing
 - completed basic and 1440px view
+- responsive finished
